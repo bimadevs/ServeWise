@@ -91,7 +91,7 @@ export default function Home() {
     alert("Pesan anda telah terkirim");
   }
   return (
-    <main>
+    <div>
 
       <div className="flex items-center justify-center w-full">
         <FloatingDock
@@ -125,7 +125,29 @@ export default function Home() {
 
       <Globe />
 
-      <iframe src="https://app.vectorshift.ai/chatbots/embedded/6726325a471c30a1baa70961?openChatbot=true" width="500px" height="600px" style={{ border: "none",zIndex: "100000", position: "fixed", bottom: 0, right: 0, margin: 10 }} allow="clipboard-read; clipboard-write; microphone"></iframe>
+      <section id="ShowAi" className="bg-gradient-to-r from-secondary to-primary py-20">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold text-center mb-16 text-white">Experience Our AI Live</h1>
+          <div className="">
+            <div
+              className="flex flex-col items-center justify-center border p-8 rounded-2xl shadow-lg hover:shadow-white hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-2">
+              <h2 className="text-3xl font-semibold mb-4 text-primary">Try our Chatbot</h2>
+              <p className="text-lg text-gray-400 mb-6">
+                Click the icon in the bottom left corner of your browser to interact with our AI.
+              </p>
+              <Image
+                src="https://ucarecdn.com/398d0050-63e7-45e2-98c7-aaf2f7ee949b/AnoShowCase.webp"
+                alt="ShowCase Ano Chatbot"
+                width={500}
+                height={500}
+              />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <script async id="vectorshift-chat-widget" src="https://app.vectorshift.ai/chatWidget.js" chatbot-id="6726325a471c30a1baa70961" chatbot-height="600px" chatbot-width="400px"></script>
       <Testimonial />
 
 
@@ -228,7 +250,7 @@ export default function Home() {
 
       <Footer />
 
-    </main>
+    </div>
   );
 }
 
