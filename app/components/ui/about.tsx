@@ -14,14 +14,12 @@ export default function About() {
           <div className="w-full md:w-1/2 mb-8 md:mb-0 transform hover:scale-105 transition duration-300">
             <div className="relative">
               <Image
-                src="https://ucarecdn.com/24b9dd32-b10c-4f42-bb24-6e77b6f218fe/intellis.svg"
+                src="/img/ServeWiseLogo.PNG"
                 width={500}
                 height={500}
-                alt="Picture of the author"
+                alt="ServeWise Logo"
               />
-              <div
-                className="absolute inset-0 bg-gradient-to-tr from-blue-400 to-purple-500 opacity-50 rounded-lg">
-              </div>
+              
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-50 rounded-b-lg">
                 <p className="text-sm text-secondary italic">Transforming how businesses interact with customers
                 </p>

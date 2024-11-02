@@ -1,90 +1,20 @@
 'use client'
+import Image from "next/image";
+import React from "react";
+
 
 import { Vortex } from "./components/ui/vortex";
 import About from "./components/ui/about";
-import { FloatingDock } from "./components/ui/navbar";
 import Feature from "./components/ui/feature";
-
-
-import Image from "next/image";
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-} from "@tabler/icons-react";
-import React from "react";
 import { CardSpotlight } from "./components/ui/card-spotlight";
 import { Label } from "@radix-ui/react-label";
 import { Input } from "./components/ui/input";
 import { cn } from "@/lib/utils";
 import { Globe } from "./components/ui/globe";
 import Testimonial from "./components/ui/testimonial";
-import Footer from "./components/ui/footer";
 
 
 export default function Home() {
-
-  const links = [
-    {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Aceternity UI",
-      icon: (
-        <Image
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "GitHub",
-      icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-  ];
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -92,12 +22,6 @@ export default function Home() {
   }
   return (
     <div>
-
-      <div className="flex items-center justify-center w-full">
-        <FloatingDock
-          items={links}
-        />
-      </div>
 
       <div className="w-full mx-auto rounded-md  h-screen overflow-hidden">
         <Vortex
@@ -136,7 +60,7 @@ export default function Home() {
                 Click the icon in the bottom left corner of your browser to interact with our AI.
               </p>
               <Image
-                src="https://ucarecdn.com/398d0050-63e7-45e2-98c7-aaf2f7ee949b/AnoShowCase.webp"
+                src="/img/ServeWiseChatDemo.png"
                 alt="ShowCase Ano Chatbot"
                 width={500}
                 height={500}
@@ -147,13 +71,12 @@ export default function Home() {
         </div>
       </section>
 
-      <script async id="vectorshift-chat-widget" src="https://app.vectorshift.ai/chatWidget.js" chatbot-id="6726325a471c30a1baa70961" chatbot-height="600px" chatbot-width="400px"></script>
       <Testimonial />
 
 
-      <div className="flex justify-center items-center flex-col">
-        <h1 className="font-bold md:text-6xl mb-4">Pricing</h1>
-        <p className="text-gray-400 md:text-2xl text-center">Free 14 day trial. No credit card required.</p>
+      <div id="pricing" className="flex justify-center items-center flex-col">
+        <h1 className="font-bold md:text-4xl mb-4">Pricing</h1>
+        <p className="text-gray-400 md:text-xl text-center">Free 14 day trial. No credit card required.</p>
         <div id="Pricing" className="mt-8 flex justify-center items-center gap-4 flex-wrap text-white">
           <a href="/free">
             <CardSpotlight className="h-96 w-96 cursor-pointer">
@@ -248,7 +171,7 @@ export default function Home() {
         </form>
       </div>
 
-      <Footer />
+      
 
     </div>
   );

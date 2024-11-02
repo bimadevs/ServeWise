@@ -105,11 +105,11 @@ export const SkeletonOne = () => {
         <div className="flex flex-1 w-full h-full flex-col space-y-2 justify-center items-center ">
           {/* TODO */}
           <Image
-            src="https://ucarecdn.com/83554751-42cc-4f52-bfb5-875157d5214b/Project.svg"
+            src="/img/LLM.png"
             alt="header"
             width={800}
             height={800}
-            className=" h-full w-full aspect-square object-cover  rounded-sm"
+            className=" h-full w-full aspect-square object-cover rounded-sm"
           />
         </div>
       </div>
