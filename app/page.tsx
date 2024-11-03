@@ -104,7 +104,7 @@ export default function Home() {
               <a href="#" className="mt-4 border-2 inline-block  hover:/80 p-2 rounded-lg z-50">Click To Try</a>
             </CardSpotlight>
           </a>
-          <CardSpotlight className="h-96 w-96">
+          <CardSpotlight className="h-96 w-96 cursor-no-drop	">
             <h3 className="text-2xl font-semibold mb-2">Individual Plan</h3>
             <p className=" mb-4">This package includes:</p>
             <ul className="list-disc list-inside  mb-4">
@@ -117,7 +117,7 @@ export default function Home() {
             <p className="font-bold text-xl mb-4">Rp.59.000,00<span className="text-sm text-gray-300">/month</span></p>
             <a href="#" className="mt-4 border-2 inline-block  hover:/80 p-2 rounded-lg z-50">Click To Buy</a>
           </CardSpotlight>
-          <CardSpotlight className="h-96 w-96">
+          <CardSpotlight className="h-96 w-96 cursor-no-drop	">
             <h3 className="text-2xl font-semibold mb-2">Team Plan</h3>
             <p className=" mb-4">This package includes:</p>
             <ul className="list-disc list-inside  mb-4">
@@ -130,7 +130,7 @@ export default function Home() {
             <p className="font-bold text-xl mb-4">Rp.179.000,00<span className="text-sm text-gray-300">/month</span></p>
             <a href="#" className="mt-4 border-2 inline-block  hover:/80 p-2 rounded-lg ">Click To Buy</a>
           </CardSpotlight>
-          <CardSpotlight className="h-96 w-96">
+          <CardSpotlight className="h-96 w-96 cursor-no-drop	">
             <h3 className="text-2xl font-semibold mb-2">Enterprise Plan</h3>
             <p className=" mb-4">For Large Organizations:</p>
             <ul className="list-disc list-inside  mb-4">
