@@ -44,7 +44,7 @@ export default function Free() {
                     It&lsquo;s Free
                 </h2>
                 <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-                    We provide this for free so you can use AI for free. remember always support us by purchasing
+                    Kami menyediakan ini secara gratis sehingga Anda dapat menggunakan AI secara gratis. Selalu dukung kami dengan membeli produk kami.
                 </p>
             </BackgroundLines>
 
