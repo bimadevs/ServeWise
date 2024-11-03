@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: skyblue;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue;
+    cursor: grab;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: blue;
+    cursor: grabbing;
+  }
+
 body {
     font-family: "Raleway", sans-serif;
 }

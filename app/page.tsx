@@ -21,7 +21,7 @@ export default function Home() {
     alert("Pesan anda telah terkirim");
   }
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {/* Hero start */}
       <div className="w-full mx-auto rounded-md  h-screen overflow-hidden">
         <Vortex
