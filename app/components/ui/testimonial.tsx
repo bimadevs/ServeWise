@@ -3,8 +3,10 @@ import Image from "next/image";
 export default function Testimonial() {
     return(
         <section className=" py-16">
-        <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-center mb-6">Testimonials</h2>
+        <div className="container mx-auto px-4 flex justify-center items-center flex-col">
+        <span className="bg-clip-text mb-8 text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">
+          <h1 className="text-2xl md:text-4xl ">Testimonials</h1>
+        </span>
             <div className="mb-16">
                 <h3 className="text-xl text-gray-400 text-center mb-8">What our Coustumer Says</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

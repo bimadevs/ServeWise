@@ -5,7 +5,7 @@ import React from "react";
 
 import { Vortex } from "./components/ui/vortex";
 import About from "./components/ui/about";
-import Feature from "./components/ui/feature";
+import { Features } from "./components/ui/feature";
 import { CardSpotlight } from "./components/ui/card-spotlight";
 import { Label } from "@radix-ui/react-label";
 import { Input } from "./components/ui/input";
@@ -22,7 +22,7 @@ export default function Home() {
   }
   return (
     <div>
-
+      {/* Hero start */}
       <div className="w-full mx-auto rounded-md  h-screen overflow-hidden">
         <Vortex
           backgroundColor="black"
@@ -42,22 +42,29 @@ export default function Home() {
           </div>
         </Vortex>
       </div>
+      {/* Hero End */}
 
+      {/* about start  */}
       <About />
+      {/* about end  */}
 
-      <Feature />
+      {/* feature start  */}
+      <Features />
+      {/* feature end  */}
 
       <Globe />
 
       <section id="ShowAi" className="bg-gradient-to-r from-secondary to-primary py-20">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center mb-16 text-white">Experience Our AI Live</h1>
+        <div className="container mx-auto px-4 flex justify-center items-center flex-col">
+          <span className="bg-clip-text mb-8 text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">
+            <h1 className="text-2xl md:text-4xl ">Experience Our Live Ai</h1>
+          </span>
           <div className="">
             <div
               className="flex flex-col items-center justify-center border p-8 rounded-2xl shadow-lg hover:shadow-white hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-2">
               <h2 className="text-3xl font-semibold mb-4 text-primary">Try our Chatbot</h2>
               <p className="text-lg text-gray-400 mb-6">
-                Click the icon in the bottom left corner of your browser to interact with our AI.
+                Click the icon in the bottom right corner of your browser to interact with our AI.
               </p>
               <Image
                 src="/img/ServeWiseChatDemo.png"
@@ -75,7 +82,9 @@ export default function Home() {
 
 
       <div id="pricing" className="flex justify-center items-center flex-col">
-        <h1 className="font-bold md:text-4xl mb-4">Pricing</h1>
+        <span className="bg-clip-text mb-8 text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">
+          <h1 className="text-2xl md:text-4xl ">Pricing</h1>
+        </span>
         <p className="text-gray-400 md:text-xl text-center">Free 14 day trial. No credit card required.</p>
         <div id="Pricing" className="mt-8 flex justify-center items-center gap-4 flex-wrap text-white">
           <a href="/free">
@@ -171,7 +180,7 @@ export default function Home() {
         </form>
       </div>
 
-      
+
 
     </div>
   );
