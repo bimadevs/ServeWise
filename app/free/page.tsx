@@ -8,7 +8,7 @@ import { MultiStepLoader as Loader } from "./components/ui/loader";
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from "./components/ui/text-hover";
 
 
-export default function free() {
+export default function Free() {
 
     const loadingStates = [
         { text: "Get Your Request" },
