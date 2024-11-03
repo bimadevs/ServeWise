@@ -88,7 +88,7 @@ export default function RootLayout({
         </div>
         {children}
         <SpeedInsights />
-        <script async id="vectorshift-chat-widget" src="https://app.vectorshift.ai/chatWidget.js" chatbot-id="6726325a471c30a1baa70961" chatbot-height="600px" chatbot-width="400px"></script>
+        <script async id="vectorshift-chat-widget" src="https://app.vectorshift.ai/chatWidget.js" chatbot-id="6726325a471c30a1baa70961" chatbot-height="600px" chatbot-width="20rem"></script>
         <Footer />
       </body>
     </html>
