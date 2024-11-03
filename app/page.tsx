@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-
+import "./style.css";
 
 import { Vortex } from "./components/ui/vortex";
 import About from "./components/ui/about";
@@ -141,7 +141,6 @@ export default function Home() {
               <li>Audit LogsL</li>
               <li>99.99% Uptime SLA</li>
             </ul>
-            {/* <p className="font-bold text-xl mb-4">Contact Us</p> */}
             <a href="#" className="mt-4 border-2 inline-block  hover:/80 p-2 rounded-lg ">Contact Us</a>
           </CardSpotlight>
         </div>
