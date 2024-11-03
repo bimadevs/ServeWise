@@ -23,6 +23,9 @@ dependencies:
   '@types/three':
     specifier: ^0.169.0
     version: 0.169.0
+  '@vercel/speed-insights':
+    specifier: ^1.0.14
+    version: 1.0.14(next@14.2.3)(react@18.3.1)
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
@@ -1051,6 +1054,34 @@ packages:
       react: '>= 16.8.0'
     dependencies:
       '@use-gesture/core': 10.3.1
+      react: 18.3.1
+    dev: false
+
+  /@vercel/speed-insights@1.0.14(next@14.2.3)(react@18.3.1):
+    resolution: {integrity: sha512-env1BkPddz1UaEZwBL4GmfRksMi2LbiYaKuoxMQjfLk83aEh7kkWMukkUhpQVs717NE6nnD+1+KO85GZHOZ4nQ==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      next: 14.2.3(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
     dev: false
 
