@@ -35,10 +35,14 @@ export default function Home() {
             Bantu pelanggan kapan saja, di mana saja dengan solusi Customer Service AI yang pintar dan mudah diintegrasikan.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-            <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-              Order now
-            </button>
-            <button className="px-4 py-2  text-white ">Try Demo</button>
+            <a href="#pricing">
+              <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
+                Order now
+              </button>
+            </a>
+            <a href="#demo">
+              <button className="px-4 py-2  text-white ">Try Demo</button>
+            </a>
           </div>
         </Vortex>
       </div>
@@ -54,7 +58,7 @@ export default function Home() {
 
       <Globe />
 
-      <section id="ShowAi" className="bg-gradient-to-r from-secondary to-primary py-20">
+      <section id="demo" className="bg-gradient-to-r from-secondary to-primary py-20">
         <div className="container mx-auto px-4 flex justify-center items-center flex-col">
           <span className="bg-clip-text mb-8 text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">
             <h1 className="text-2xl md:text-4xl ">Experience Our Live Ai</h1>
@@ -62,12 +66,12 @@ export default function Home() {
           <div className="">
             <div
               className="flex flex-col items-center justify-center border p-8 rounded-2xl shadow-lg hover:shadow-white hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-2">
-              <h2 className="text-3xl font-semibold mb-4 text-primary">Try our Chatbot</h2>
+              <h2 className="text-3xl font-semibold mb-4 text-primary">Coba demo chatbot kami</h2>
               <p className="text-lg text-gray-400 mb-6">
-                Click the icon in the bottom right corner of your browser to interact with our AI.
+                Click icon yang berada di sudut bawah kanan browser anda untuk memulai obrolan
               </p>
               <Image
-                src="/img/ServeWiseChatDemo.png"
+                src="/img/DemoChatbot.png"
                 alt="ShowCase Ano Chatbot"
                 width={500}
                 height={500}

@@ -12,52 +12,52 @@ import {
 
 export function Features() {
   const features = [
-    {
-      title: "Built for developers",
-      description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
-    },
-    {
-      title: "Ease of use",
-      description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
-    },
-    {
-      title: "Pricing like no other",
-      description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
-    },
-    {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
-      icon: <IconCloud />,
-    },
-    {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
-      icon: <IconRouteAltLeft />,
-    },
-    {
-      title: "24/7 Customer Support",
-      description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
-    },
-    {
-      title: "Money back guarantee",
-      description:
-        "If you donot like EveryAI, we will convince you to like us.",
-      icon: <IconAdjustmentsBolt />,
-    },
-    {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
-      icon: <IconHeart />,
-    },
-  ];
+      {
+        title: "Dibangun untuk membantu usaha",
+        description:
+          "Mulai dari usaha kecil hingga menengah",
+        icon: <IconTerminal2 />,
+      },
+      {
+        title: "Kemudahan penggunaan",
+        description:
+          "Sesederhana menggunakan Apple, dan sesulit membelinya.",
+        icon: <IconEaseInOut />,
+      },
+      {
+        title: "Harga kami terbaik",
+        description:
+          "Harga kami terbaik di pasaran Indonesia saat ini",
+        icon: <IconCurrencyDollar />,
+      },
+      {
+        title: "Jaminan Waktu Aktif 100%",
+        description: "Kami tidak bisa dihentikan oleh siapapun.",
+        icon: <IconCloud />,
+      },
+      {
+        title: "Arsitektur Multi-penyewa",
+        description: "Anda dapat membagikan Chatbot daripada membeli baru",
+        icon: <IconRouteAltLeft />,
+      },
+      {
+        title: "Dukungan Pelanggan 24/7",
+        description:
+          "Kami tersedia 24/7. Setidaknya agen AI kami ada.",
+        icon: <IconHelp />,
+      },
+      {
+        title: "Garansi Uang Kembali",
+        description:
+          "Jika Anda tidak menyukai ServeWise, kami akan meyakinkan Anda untuk menyukai kami.",
+        icon: <IconAdjustmentsBolt />,
+      },
+      {
+        title: "Dibuat dengan sepenuh hati",
+        description: "mengembangkan usaha anda dengna sepenuh hati",
+        icon: <IconHeart />,
+      },
+    ];
   return (
     <div className="flex justify-center items-center flex-col">
       <span className="bg-clip-text text-transparent bg-gradient-to-t from-gray-500 via-white to-black inline-block">

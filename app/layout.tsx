@@ -29,14 +29,14 @@ const links = [
     icon: (
       <IconAlertCircle className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#about",
+    href: "/#about",
   },
   {
     title: "Pricing",
     icon: (
       <IconShoppingCart className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#pricing",
+    href: "/#pricing",
   },
   {
     title: "Home",
@@ -63,7 +63,7 @@ const links = [
     icon: (
       <IconPhoneCall className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
-    href: "#contact",
+    href: "/#contact",
   },
 
 ];
